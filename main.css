@@ -43,3 +43,19 @@ body {
     height: 8px;
     width: 35%;
 }
+
+@media screen and (max-width: 800px) {
+    .frame {
+        display: inherit;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        border: 25px solid #bdb9b9;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        transform: translateY(3px);
+        background-color: aliceblue;
+        box-shadow: -20px 14px 30px 7px darkslategray;
+    }
+}
